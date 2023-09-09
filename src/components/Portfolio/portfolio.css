@@ -1,0 +1,10 @@
+.portfolio * {
+  color: rgb(44, 62, 80) !important;
+}
+.portfolio .star i {
+  color: rgb(44, 62, 80) !important;
+}
+.portfolio .star::after,
+.portfolio .star::before {
+  background-color: rgb(44, 62, 80) !important;
+}

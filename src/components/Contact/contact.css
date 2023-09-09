@@ -1,0 +1,14 @@
+.contact * {
+  color: rgb(44, 62, 80) !important;
+}
+.contact .star i {
+  color: rgb(44, 62, 80) !important;
+}
+.contact .star::after,
+.contact .star::before {
+  background-color: rgb(44, 62, 80) !important;
+}
+.contact input:focus {
+  border-color: none !important;
+  box-shadow: 0 0 0 0rem transparent !important;
+}
