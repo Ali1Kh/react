@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ali1Kh/react/static/css/main.03c16ebc.css",
+    "main.js": "/Ali1Kh/react/static/js/main.8c5359c9.js",
+    "static/media/fa-solid-900.ttf": "/Ali1Kh/react/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Ali1Kh/react/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Ali1Kh/react/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Ali1Kh/react/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/Ali1Kh/react/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/poert1.png": "/Ali1Kh/react/static/media/poert1.4417330275f78faa31c3.png",
+    "static/media/port3.png": "/Ali1Kh/react/static/media/port3.494a4a914b5471b41f3e.png",
+    "static/media/fa-regular-400.woff2": "/Ali1Kh/react/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/port2.png": "/Ali1Kh/react/static/media/port2.6554473016d32b343f02.png",
+    "static/media/avatar.png": "/Ali1Kh/react/static/media/avatar.897c5561e351949dee71.png",
+    "static/media/fa-v4compatibility.ttf": "/Ali1Kh/react/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Ali1Kh/react/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/Ali1Kh/react/index.html",
+    "main.03c16ebc.css.map": "/Ali1Kh/react/static/css/main.03c16ebc.css.map",
+    "main.8c5359c9.js.map": "/Ali1Kh/react/static/js/main.8c5359c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c16ebc.css",
+    "static/js/main.8c5359c9.js"
+  ]
+}
