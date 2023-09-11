@@ -13,41 +13,41 @@ class Contact extends Component {
               <Star />
             </div>
             <div className="contactForm p-5">
-              <div class="form-floating mb-3">
+              <div className="form-floating mb-3">
                 <input
-                  class="form-control border-top-0 border-start-0 border-end-0"
+                  className="form-control border-top-0 border-start-0 border-end-0"
                   placeholder="Leave a comment here"
                   id="floatinginput"
                   type="text"
                 ></input>
-                <label for="floatinginput">userName :</label>
+                <label htmlFor="floatinginput">userName :</label>
               </div>
-              <div class="form-floating mb-3">
+              <div className="form-floating mb-3">
                 <input
-                  class="form-control border-top-0 border-start-0 border-end-0"
+                  className="form-control border-top-0 border-start-0 border-end-0"
                   placeholder="Leave a comment here"
                   id="floatinginput"
                   type="number"
                 ></input>
-                <label for="floatinginput">userAge :</label>
+                <label htmlFor="floatinginput">userAge :</label>
               </div>
-              <div class="form-floating mb-3">
+              <div className="form-floating mb-3">
                 <input
-                  class="form-control border-top-0 border-start-0 border-end-0"
+                  className="form-control border-top-0 border-start-0 border-end-0"
                   placeholder="Leave a comment here"
                   id="floatinginput"
                   type="email"
                 ></input>
-                <label for="floatinginput">userEmail :</label>
+                <label htmlFor="floatinginput">userEmail :</label>
               </div>
-              <div class="form-floating mb-4">
+              <div className="form-floating mb-4">
                 <input
-                  class="form-control border-top-0 border-start-0 border-end-0"
+                  className="form-control border-top-0 border-start-0 border-end-0"
                   placeholder="Leave a comment here"
                   id="floatinginput"
                   type="password"
                 ></input>
-                <label for="floatinginput">userpassword :</label>
+                <label htmlFor="floatinginput">userpassword :</label>
               </div>
               <button className="btn btn-info text-white">Send Message</button>
             </div>

@@ -3,7 +3,7 @@ footer * {
   color: white !important;
 }
 nav .active {
-  /* background-color: red; */
+  background-color: #1bbd9c;
 }
 
 footer .socialIcons .icon {

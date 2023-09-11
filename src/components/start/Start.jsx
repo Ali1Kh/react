@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./start.css";
-
+import $ from "jquery";
 class Start extends Component {
+  componentDidMount() {
+    $(".nav-link").click((e) => {
+      $(".nav-link.active").removeClass("active");
+      $(e.target).addClass("active");
+    });
+  }
   render() {
     return (
       <main>
@@ -29,7 +35,7 @@ class Start extends Component {
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link
-                    className="nav-link active"
+                    className="nav-link rounded-3 active"
                     aria-current="page"
                     to="about"
                   >
@@ -37,19 +43,19 @@ class Start extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="portfolio">
+                  <Link className="nav-link rounded-3" to="portfolio">
                     PORTFOLIO
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="contact">
+                  <Link className="nav-link rounded-3" to="contact">
                     CONTACT
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-        </nav> 
+        </nav>
         <Outlet />
         <footer className="text-center">
           <div className="mainFooter p-5 mainBgColor">
@@ -93,5 +99,4 @@ class Start extends Component {
     );
   }
 }
-
 export default Start;

@@ -8,3 +8,23 @@
 .portfolio .star::before {
   background-color: rgb(44, 62, 80) !important;
 }
+
+.portfolio .cardItem {
+  cursor: pointer;
+}
+.portfolio .cardLayer {
+  background-color: #1bbd9c;
+  transition: opacity 400ms;
+}
+.portfolio .cardLayer i {
+  font-size: 85px;
+}
+.portfolio .cardItem:hover .cardLayer {
+  opacity: 93% !important;
+}
+.mainLayer {
+  background-color: rgba(17, 0, 255, 0.212) !important;
+}
+.mainLayer .image{
+  width: 600px;
+}
