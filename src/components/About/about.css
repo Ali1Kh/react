@@ -1,14 +1,13 @@
 * {
-    color: white;
-  }
-  main {
-    background-color: #1bbd9c;
-  }
-  .star i {
-    color: white !important;
-  }
-  .star::after,
-  .star::before {
-    background-color: white !important;
-  }
-  
+  color: white;
+}
+main {
+  background-color: #1bbd9c;
+}
+.star i {
+  color: white !important;
+}
+.star::after,
+.star::before {
+  background-color: white !important;
+}

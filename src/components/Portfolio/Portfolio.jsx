@@ -7,9 +7,11 @@ import img3 from "./imgs/port3.png";
 import $ from "jquery";
 class Portfolio extends Component {
   componentDidMount() {
-    $(".portfolio .cardLayer").click((e) => { 
-      this.imgSrc = $($(e.target).parents(".cardItem").children("img")).attr("src");
-      $(".mainLayer .image img").attr("src",this.imgSrc)
+    $(".portfolio .cardLayer").click((e) => {
+      this.imgSrc = $($(e.target).parents(".cardItem").children("img")).attr(
+        "src"
+      );
+      $(".mainLayer .image img").attr("src", this.imgSrc);
       $(".mainLayer").removeClass("d-none");
       $(".mainLayer").addClass("d-flex");
     });
@@ -91,5 +93,4 @@ class Portfolio extends Component {
     );
   }
 }
-
 export default Portfolio;

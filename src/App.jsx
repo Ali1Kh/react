@@ -15,7 +15,6 @@ const router = createBrowserRouter([
   ]},
   { path: "*", element: <><h1>Page Not Found...</h1></> },
 ]);
-
 function App() {
   return (
     <>
@@ -23,5 +22,4 @@ function App() {
     </>
   );
 }
-
 export default App;

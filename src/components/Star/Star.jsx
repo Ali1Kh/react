@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './star.css'
+import "./star.css";
 export default class Star extends Component {
   render() {
     return (

@@ -2,10 +2,12 @@ nav *,
 footer * {
   color: white !important;
 }
+.mainBgColor{
+  background-color: #2d3f50;
+}
 nav .active {
   background-color: #1bbd9c;
 }
-
 footer .socialIcons .icon {
   width: 35px;
   height: 35px;
